@@ -1,0 +1,5 @@
+<launch>
+  <node name="intm"   pkg="ros1_pcl_e2e" type="intm" />
+  <node name="end" pkg="ros1_pcl_e2e" type="end" output="screen"/>
+  <!-- node name="st_end" pkg="ros1_pcl_e2e" type="st_end" output="screen" -->
+</launch>

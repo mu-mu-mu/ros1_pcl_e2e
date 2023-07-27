@@ -1,0 +1,23 @@
+<package format="2">
+  <name>ros1_pcl_e2e</name>
+  <version>1.0.0</version>
+  <description> eval
+  </description>
+  <maintainer email="mumumu0722@gmail.com">Keisuke Nishimura</maintainer>
+  <license>BSD</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>rosbag</build_depend>
+
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>pcl_conversions</depend>
+  <exec_depend>pcl_ros</exec_depend>
+  <exec_depend>rosbag</exec_depend>
+
+  <test_depend>rosbag</test_depend>
+
+</package>
